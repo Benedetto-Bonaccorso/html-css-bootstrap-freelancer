@@ -14,3 +14,17 @@
     width: 2rem;
 }
 
+.bg_bs-green{background-color: var(--bs_green);}
+
+.w_15_rem{
+    width: 15rem;
+}
+
+.straight-section{
+    height: 5px; 
+    width: 3rem;
+}
+
+.fa-star{
+    width: 2rem;
+}
