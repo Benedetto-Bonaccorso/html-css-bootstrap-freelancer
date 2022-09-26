@@ -4,8 +4,9 @@
     --bs_dark_blue: #2c3e50
 }
 
-.header_container{
-    background-color: var(--bs_dark_blue);
+.header_section, 
+.footer-section{
+    background-color: var(--bs_light_blue);
     color: white;
 }
 
@@ -27,4 +28,35 @@
 
 .fa-star{
     width: 2rem;
+}
+
+div[class^="col"]{
+    
+}
+
+.send{
+    margin-top: 5rem;
+}
+
+.address{
+    margin-bottom: 4rem;
+}
+
+.around-the-web{
+    margin-bottom: 2rem;
+}
+
+.social{
+    border: 1px solid white;
+
+    padding: 1rem 1.3rem;
+    border-radius: 500px;
+}
+
+.bg_dark_blue{
+    background-color: var(--bs_dark_blue);
+}
+
+img{
+    max-width: 100%;
 }
